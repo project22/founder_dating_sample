@@ -1,0 +1,462 @@
+<html>
+	<head>
+		<title>FounderDating</title>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js" defer></script>
+		<script src="js/founder-dating.js" defer></script>
+		<link rel="stylesheet" href="css/bootstrap-fd.css">
+		<link rel="stylesheet" href="css/custom.css">
+		
+	</head>
+	<body>
+		<!-- start header navigation -->
+		<div>
+			<nav class="navbar navbar-inverse navbar-nomargin" role="navigation">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      <span class="sr-only">Toggle navigation</span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			    </button>
+			    <a class="navbar-brand" href="#"><img src="images/fd-logo-white-no-background.png"></a>
+			  </div>
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav">
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			    	<li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown">JP Berti <b class="caret"></b></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="#">Profile</a></li>
+			          <li><a href="#">Settings</a></li>
+			          <li><a href="#">Sign Out</a></li>
+			        </ul>
+			      </li>
+			      <li class="dropdown">
+			        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-plus"></span><span class="glyphicon glyphicon glyphicon-user"></span></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="#">Members</a></li>
+			          <li><a href="#">Connections</a></li>
+			        </ul>
+			      </li>
+			      <li class="inline-list"><a href="#"><span class="glyphicon glyphicon-bullhorn"></span></a></li>
+			      <li class="inline-list"><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+			      <li class="inline-list"><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+			    </ul>
+			  </div><!-- /.navbar-collapse -->
+			</nav>
+		</div>
+		<div>
+			<nav class="navbar navbar-inverse navbar-sub " role="navigation">
+			    <ul class="nav nav-pills">
+			      <li><a href="#">Blog</a></li>
+			      <li class="active"><a href="#">Network</a></li>
+			      <li><a href="#">Discuss</a></li>
+			      <li><a href="#">Resources</a></li>
+			    </ul>
+			</nav>
+		</div>
+		<!-- end header navigation -->
+
+		<!-- start main container -->
+		<div class="container"> 
+
+			<!-- search bar start -->	
+			<div class="panel-group" id="accordion">
+				<nav class="navbar navbar-default navbar-nomargin" role="navigation">
+				  <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+				      <span class="sr-only">Toggle navigation</span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				    </button>
+				    <span class="navbar-brand"><span class="glyphicon glyphicon-search"></span> Find Cofounders</span>
+				  </div>
+
+				  <!-- Collect the nav links, forms, and other content for toggling -->
+				  <div class="panel">
+				  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+				    <ul class="nav navbar-nav">
+				      <li><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Markets of Interest</a></li>
+				      <li><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Skill Sets</a></li>
+				      <li><a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Location</a></li>
+				    </ul>
+				    <form class="navbar-form navbar-right" role="search">
+				      <div class="form-group">
+				        <input type="text" class="form-control" placeholder="Search">
+				      </div>
+				      <button type="submit" class="btn btn-default">Search!</button>
+				    </form>
+				  </div><!-- /.navbar-collapse -->
+					</div>
+				</nav>
+			
+				<div id="collapseOne" class="panel-collapse collapse">
+			  	<div class="panel panel-primary">
+			  		<div class="panel-heading">Select Markets of Interest</div>
+			      <div class="panel-body">
+			        <div class="row">
+			        	<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">3D Printing</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Advertising</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Cloud Services</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Commerce</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Consumer Electronics</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Data & Analysis</button></div>
+			        </div>
+			        <div class="row">
+			        	<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Dating</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Education</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Enterprise Software</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Events</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Fashion</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Financial Services</button></div>
+			        </div>
+			        <div class="row">
+			        	<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Games</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Green</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Hardware</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Local</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Media</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Mobile</button></div>
+			        </div>
+			        <div class="row">
+			        	<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Music</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Payments</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Payments</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Photos</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Productivity Tools</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Recruiting</button></div>
+			        </div>
+			        <div class="row">
+			        	<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Robotic</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Small Business</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Smart Home</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Social Impact</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Sports</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Transportation</button></div>
+			        </div>
+			        <div class="row">
+			        	<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Travel</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Video</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Wearable Tech</button></div>
+	  						<div class="col-sm-2"></div>
+	  						<div class="col-sm-2"></div>
+	  						<div class="col-sm-2"></div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			  <div id="collapseTwo" class="panel-collapse collapse">
+			  	<div class="panel panel-primary"> 
+			  		<div class="panel-heading">Select Skill Sets</div>
+			      <div class="panel-body">
+			        <div class="row">
+			        	<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">3D Printing</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Advertising</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Cloud Services</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Commerce</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Consumer Electronics</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Data & Analysis</button></div>
+			        </div>
+			        <div class="row">
+			        	<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">3D Printing</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Advertising</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Cloud Services</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Commerce</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Consumer Electronics</button></div>
+	  						<div class="col-sm-2"><button type="button" class="btn btn-default btn-block" data-toggle="button">Data & Analysis</button></div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			  <div id="collapseThree" class="panel-collapse collapse">
+			  	<div class="panel panel-primary">
+			  		<div class="panel-heading">Specify Location</div>	    
+			      <div class="panel-body">
+			        <form class="form-inline" role="form">
+			        	<label>
+			        		Location 
+			        	</label>	        	
+							  <div class="form-group">  
+							  	<label class="sr-only" for="exampleInputEmail2">Location</label>
+							    <input type="email" class="form-control" id="location" placeholder="City or Zip">
+							  </div>
+							  within
+							  <div class="form-group">  
+							  	<label class="sr-only" for="exampleInputEmail2">Radius</label>
+							    <input type="email" class="form-control" id="radius" placeholder="50">
+							  </div>
+							  miles
+							  <div class="checkbox">
+							    <label>
+							      <input type="checkbox" id="relocate"> Willing to relocate
+							    </label>
+							  </div>
+							  <button type="submit" class="btn btn-default">Search!</button>
+							</form>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<!-- search bar end -->
+
+			<!-- start results and pagination bar -->
+			<div class="row">
+				<div class="col-xs-5">
+					<form class="form-inline align-middle" role="form">
+						<label>
+				      Sort results by
+							<select class="form-control width-120">
+							  <option>Newest</option>
+							  <option>A - Z</option>
+							  <option>Z - A</option>
+							</select> 
+						</label>
+					</form>
+				</div>
+				<div class="col-xs-7">
+					<ul class="pagination pull-right">
+					  <li><a href="#">&laquo;</a></li>
+					  <li class="active"><a href="#">1</a></li>
+					  <li><a href="#">2</a></li>
+					  <li><a href="#">3</a></li>
+					  <li><a href="#">4</a></li>
+					  <li><a href="#">5</a></li>
+					  <li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end results and pagination bar -->
+
+			<!-- start results output -->
+			<div class="row">
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			</div>
+					<div class="row">
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			  <div class="col-sm-4">
+			  	<div class="panel panel-default panel-grey">
+					  <div class="panel-body">
+					    <div class="media">
+							  <a class="pull-left" href="#">
+							    <img class="media-object mugshot-small" src="http://m.c.lnkd.licdn.com/mpr/mprx/0_-ev3kzaQyoqgH-gRtftYkBpnKd3tH-SRK7TYkBg977zCcnsUYm5Docd4YXTSwzuc1wB0wr_wmzLq" alt="...">
+							  </a>
+							  <div class="media-body">
+							  	<span class="glyphicon glyphicon-star-empty pull-right"></span>
+							    <h4 class="media-heading">Susan Stratford</h4>
+
+							    <small class="text-muted"><span class="glyphicon glyphicon-map-marker"></span> Greater New York City Area</small>
+							  </div>
+							</div>
+							<div>
+								<p class="user-description">Co-founder & COO, SocialChaser, Inc.. Previously Brand manager, Marketers Anonymous. University of California, Riverside grad.</p>	
+							</div>
+					  </div>
+					</div>
+			  </div>
+			</div>
+			<!-- end results output -->
+			<!-- start results and pagination bar -->
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="pagination pull-right">
+					  <li><a href="#">&laquo;</a></li>
+					  <li class="active"><a href="#">1</a></li>
+					  <li><a href="#">2</a></li>
+					  <li><a href="#">3</a></li>
+					  <li><a href="#">4</a></li>
+					  <li><a href="#">5</a></li>
+					  <li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end results and pagination bar -->
+		</div> 
+		<!-- start footer -->
+
+		<!-- end footer -->
+		<div class="footer inverse">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-5 nav-padding">&copy; 2014 FounderDating. All rights reserved</div>
+					<div class="col-sm-7">   
+						<ul class="nav nav-pills pull-right">
+							<ul class="nav nav-pills">
+							<li><a href="#">About</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">People</a></li>
+							<li><a href="#">Roles</a></li>
+							<li><a href="#">Terms</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end main containter -->
+	</body>
+</html>
